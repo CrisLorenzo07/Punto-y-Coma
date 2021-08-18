@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+<!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Registro</title>
+    <meta name="description" content="En esta paginas se pueden registrar nuevos usuario que podran comprar y agregar a favoritos los libros que eligan">
+    <meta name="author" content="Cristian Lorenzo">
+
+<!--Bootstrap CSS-->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<!--Mi CSS-->
+
+    <link rel="stylesheet" type="text/css" href="../css/main.css ">
+        
+  </head>
+
+  <!--Inicio Barra de Navegación-->
+
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #A30909";>
+    <div class="container-fluid">
+      <a class="navbar-brand" href="../Index.html"><img src="../media/image/logo/logo.svg"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Autores.html">Autores</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Libros.html">Libros</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Personajes.html">Personajes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="SobreMi.html">Sobre Mi</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Entrar
+            </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="Inicio-de-Sesion.html">Iniciar Sesión</a></li>
+              <li><a class="dropdown-item" href="Registro.html">Registrarse</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="Preguntas-Frecuentes">Preguntas Frecuentes</a></li>
+        </ul>
+          </li>
+        </ul>
+
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="¿Qué quieres buscar?" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Buscar</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+<!--Fin Barra de Navegación-->
+
+
+<h1>Registrarse</h1>
+
+<!--Inicio Formulario de Registro-->
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="name" class="form-control" id="Name" aria-describedby="Name" placeholder="Ingrese su Nombre">
+            </div>
+            <div class="mb-3">
+            <label for="lastname" class="form-label">Apellido</label>
+              <input type="lastname" class="form-control" id="lastname" aria-describedby="lastname" placeholder="Ingrese su Apellido">
+            </div>
+            <div class="mb-3">
+            <label for="Email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" aria-describedby="Email"placeholder="Ingrese su Email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" placeholder="Ingrese su Contraseña">
+            </div>
+            <div class="mb-3">
+              <label for="repeat-password" class="form-label">Repetir Contraseña</label>
+              <input type="repeat-password" class="form-control" id="repeat-password" placeholder="Repita su Contraseña">
+            </div>
+            <div class="mb-3 form-check">
+              <input type="checkbox" class="form-check-input" id="confirm">
+              <label class="form-check-label" for="terminos-y-Condiciones">Terminos y Condiciones</label>
+            </div>
+            <button type="submit" class="btn btn-dark">Registrarse</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+
+<!--Fin Formulario de Registro-->
+
+</html>
