@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+* {
+  padding: 0px;
+  margin: 0px; }
+
+nav img {
+  width: 140px; }
+
+nav {
+  background-color: #910707; }
+  nav ul li a {
+    font-family: "Bebas Neue", cursive, sans-serif;
+    font-size: 25px; }
+
+body {
+  background-attachment: fixed;
+  background-image: url(../media/image/body/double-bubble-dark);
+  background-color: #0C0C0C; }
+
+h2 {
+  background-color: #B00713; }
+
+h1 {
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  text-align: center;
+  color: #F9EFEF; }
+
+h2 {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 30px;
+  text-align: center;
+  color: #F9EFEF; }
+
+h3 {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: #F9EFEF; }
+
+p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px; }
+
+form label {
+  font-family: "Tajawal", sans-serif;
+  font-size: 18px;
+  text-align: right;
+  color: #B00713;
+  display: flex; }
+
+fieldset label {
+  font-family: "Tajawal", sans-serif;
+  border: 4px;
+  border-radius: 3px;
+  display: inline-block; }
+
+legend {
+  padding: 10px;
+  margin: 10px;
+  font-size: 20px;
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  color: #F9EFEF;
+  text-align: center; }
+
+header p {
+  color: #F9EFEF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px; }
+
+nav ol li a {
+  color: #F9EFEF;
+  font-size: 18px;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive, sans-serif;
+  text-transform: uppercase;
+  background: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size .3s; }
+
+a:hover, a:focus {
+  background-size: 100% 2px;
+  color: #000000; }
+
+div ul li a {
+  color: #F9EFEF;
+  text-decoration: none;
+  font-family: "Bebas Neue", cursive, sans-serif;
+  font-size: 25px; }
+
+footer {
+  background-color: #910707; }
+  footer img {
+    justify-content: space-between; }
+
+footer div {
+  padding: 10px;
+  display: inline-block;
+  text-decoration: none; }

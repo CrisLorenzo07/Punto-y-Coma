@@ -1,0 +1,98 @@
+//Titulo
+h1{
+	font-family: $fontTitule;
+	font-size: $fontSizeXL;
+	text-align: $fontCenterXL;
+	color: $light;
+
+}
+
+//Antetítulo
+h2{
+	font-family: $fontSecond;
+	font-size: $fontSizeL;
+	text-align: $fontCenterL;
+	color: $light;
+}
+
+//SubTitulo
+h3{
+	font-family: $fontThree;
+	font-size: $fontSizeM;
+	text-align: $fontLeftM;
+	color: $light;
+}
+
+//Texto
+p{
+	font-family: $fontText;
+	font-size: $fontSizeS;
+
+}
+
+//Formulario
+form{ 
+
+	label{
+
+	font-family: $fontForm;
+	font-size: $fontSizeForm;
+	text-align: $fontRight;
+	color: $danger;
+	display: $flex;
+
+	}
+}
+
+fieldset label{
+
+    font-family: $fontForm;
+    border:4px;
+    border-radius:3px;
+    display:$inline-block;
+}
+
+legend{
+
+	padding: 10px;
+    margin: 10px;
+    font-size: $fontSizeM;
+    font-family: $fontThree;
+	color:$light;
+	text-align: $fontCenter;
+}
+
+header p{
+		
+	color:$light;
+	font-family: $fontText;
+	font-size: $fontSizeS;
+
+}
+
+nav ol li a{
+    color: $light;
+    font-size: $fontSizeS;
+    text-decoration: none;
+    font-family: $fontNav;
+    text-transform: uppercase;
+    background: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus{
+    background-size: 100% 2px;
+    color: $dark;
+    }
+
+div ul li a{
+
+	color: $light;
+	text-decoration: none;
+	font-family: $fontNav;
+	font-size: $fontSizeNav;
+
+}

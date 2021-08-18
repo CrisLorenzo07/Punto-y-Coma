@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:Oswald:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap');
+* {
+    Margin:0;
+    padding:5;
+}
+
+h1{
+    color: #9E1715;
+    font-family: 'Oswald', sans-serif;
+    font-weight:bold;
+    font-size: 35px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+ }
+
+h2{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight:bold;
+    font-size: 30px;
+    text-align: center;
+}
+
+h3{
+    color: black;
+    font-family:'Fira Sans Extra Condensed', sans-serif;
+    text-align: center;
+    font-weight:bold;
+    font-size: 20px;
+}
+
+p{ 
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    text-align: none ;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+header h2{
+    color: black;
+    font-weight:bold;
+    font-size: 30px;
+    padding: 15px;
+    margin: 10px;
+}
+
+tr{
+    color: black;
+}
+
+nav{
+    background-color: darkred;
+    padding: 4px;
+}
+
+#imgLogo{
+    text-align: center;
+    padding-top: 10px;
+} 
+
+#imgLogo:hover{
+    transform: scale(1.1);
+}
+
+#libros{
+    width: 50%;
+    height: 200px;
+    display: grid;
+    background-color: darkred;
+    color: white;
+    padding: 20px;
+    float: left;
+    box-sizing: border-box; 
+    background-attachment: fixed;
+}
+
+#autores{
+    width: 50%;
+    height: 200px;
+    display: grid;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    float: right; 
+    box-sizing: border-box;
+    background-attachment: fixed;
+}
+
+nav ul{
+    display: flex;
+    justify-content:space-between;
+    padding: 5px 20px;
+}
+
+nav ul li{
+  list-style: none;
+  width: 23%;
+  text-align: center
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 24px;
+    text-decoration: none;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    text-transform: uppercase;
+    background: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+}
+
+a:hover, a:focus{
+    background-size: 100% 2px;
+    color: white;
+}
+
+footer{
+    color: black;
+    background-color: darkred;
+}
+
+footer div{
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+    flex 1;
+} 
+
+#listaDeLibros{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    grid-template-rows: 450px 400px;
+    justify-items: center;
+}
+
+#listaDeLibros div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#Personajes{
+    display: grid;
+    padding: 20px;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 50px 500px 300px;
+    grid-gap: 10px;
+    justify-items: center;
+}
+
+body{
+    background-attachment: fixed;
+/*background:
+    radial-gradient(black 3px, transparent 4px),
+    radial-gradient(black 3px, transparent 4px),
+    linear-gradient(#fff 4px, transparent 0),
+    linear-gradient(45deg, transparent 74px, transparent 75px, #a4a4a4 75px, #a4a4a4 76px, transparent 77px, transparent 109px),
+    linear-gradient(-45deg, transparent 75px, transparent 76px, #a4a4a4 76px, #a4a4a4 77px, transparent 78px, transparent 109px),
+    #fff;
+    background-size: 109px 109px, 109px 109px,100% 6px, 109px 109px, 109px 109px;
+    background-position: 54px 55px, 0px 0px, 0px 0px, 0px 0px, 0px 0px;*/
+    background-image: url(../media/image/body/madera.png);
+    background-color:#0C0C0C;
+    height:100%;
+    width:100%;
+}
+ 
+.Container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows:5vh 20vh 10vh 30vh 100vh 20vh;
+    grid-template-areas: "box1" "box2" "box3" "box4" "box5" "box6";
+}
+
+@media only screen and (min-width: 768px){
+  .Container{
+    grid-template-columns: 1fr;
+    grid-template-rows:5vh 15vh 8vh 35vh 30vh 10vh;
+    grid-template-areas:"box1" "box2" "box3" "box4" "box5" "box6";
+  }
+}
+
+@media only screen and (min-width: 1024px){
+  .Container{
+    grid-template-columns: 1fr;
+    grid-template-rows: 5vh 30vh 8vh 105vh 80vh 20vh;
+    grid-template-areas:"box1" "box2" "box3" "box4" "box5" "box6"; 
+  }
+}
+
+form{
+    padding: 25px;
+    margin: 25px;
+}
+
+form label{
+    width:72px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight:bold;
+    display: grid;
+}
+
+form input[type="text"],
+form input[type="email"]{
+    margin-bottom: ;
+    width:150px;
+    padding:3px 10px;
+    color: white;
+    border:4px;
+    border-radius:3px;
+    background-color: darkred;
+    margin:10px;
+    display:inline-block;
+}
+
+legend{
+    padding: 10px;
+    margin: 10px;
+    color: black;
+    font-size: 20px;
+    font-family: 'Tajawal', sans-serif;
+    font-weight:bold;
+}
+
+fieldset label{
+    width:100px;
+    padding:3px 10px;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    border:4px;
+    border-radius:3px;
+    background-color: darkred;
+    margin:15px;
+    display:inline-block;
+    background: linear-gradient(to top, red, black);
+    transition: background 1s;
+}
+
+fieldset label:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+textarea{
+    width:100%;
+    padding: 10px;
+    height:100px;
+    border:1px;
+    border-radius:3px;
+    background-color;     
+    margin:8px 0;
+    resize:none;
+    display:block;
+} 
+  
+button{
+    width: 100px;
+    height: 25px;
+    color: white;
+    font-family: 'Tajawal', sans-serif;
+    border-radius:5px;
+    border: none;
+    background: linear-gradient(to top, red, black);
+    transition: background 1s;
+}
+
+button:hover{
+    background: linear-gradient(to top, black, red);
+    cursor: pointer;
+}
+
+section div{
+    margin: 20px;
+    padding: 20px;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows: 50px 500px 300px;
+    grid-gap: 10px;
+    justify-items: center;
+    display:inline-block;
+}
+
+section div:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+#imgautor{
+
+    padding: 20px;
+    margin: 20px;
+    display: grid;
+    float: left;
+}
+
+#bio{
+    padding: 20px;
+    margin: 20px;
+    font-style: Noto Sans JP;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: right ;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+  
