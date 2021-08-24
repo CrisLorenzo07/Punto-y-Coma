@@ -5,6 +5,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@1,300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@300&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Staatliches&display=swap");
 * {
   padding: 0px;
   margin: 0px; }
@@ -13,18 +14,16 @@ nav img {
   width: 140px; }
 
 nav {
-  background-color: #910707; }
+  background: linear-gradient(to left, #0f0c29, #302b63, #24243e); }
   nav ul li a {
     font-family: "Bebas Neue", cursive, sans-serif;
     font-size: 25px; }
 
 body {
-  background-attachment: fixed;
-  background-image: url(../media/image/body/double-bubble-dark);
-  background-color: #0C0C0C; }
+  background: linear-gradient(to left, #0f0c29, #302b63, #24243e); }
 
 h2 {
-  background-color: #B00713; }
+  background-color: #F9EFEF; }
 
 h1 {
   font-family: "Oswald", sans-serif;
@@ -36,12 +35,17 @@ h2 {
   font-family: "Merriweather Sans", sans-serif;
   font-size: 30px;
   text-align: center;
-  color: #F9EFEF; }
+  color: #090992; }
 
 h3 {
   font-family: "Fira Sans Extra Condensed", sans-serif;
   font-size: 20px;
   text-align: left;
+  color: #F9EFEF; }
+
+h4 {
+  font-family: "Fira Sans Extra Condensed", sans-serif;
+  font-size: 18px;
   color: #F9EFEF; }
 
 p {
@@ -50,10 +54,11 @@ p {
 
 form label {
   font-family: "Tajawal", sans-serif;
-  font-size: 18px;
+  font-size: 20px;
   text-align: right;
-  color: #B00713;
-  display: flex; }
+  color: #F9EFEF;
+  display: flex;
+  font-variant: bold; }
 
 fieldset label {
   font-family: "Tajawal", sans-serif;
@@ -64,10 +69,11 @@ fieldset label {
 legend {
   padding: 10px;
   margin: 10px;
-  font-size: 20px;
+  font-size: 30px;
   font-family: "Fira Sans Extra Condensed", sans-serif;
   color: #F9EFEF;
-  text-align: center; }
+  text-align: center;
+  font-variant: bold; }
 
 header p {
   color: #F9EFEF;
@@ -91,15 +97,21 @@ a:hover, a:focus {
   color: #000000; }
 
 div ul li a {
-  color: #F9EFEF;
+  color: #000000;
   text-decoration: none;
   font-family: "Bebas Neue", cursive, sans-serif;
   font-size: 25px; }
 
+h3 {
+  font-family: "Staatliches", cursive;
+  color: #F9EFEF; }
+
+h3 button {
+  margin: 10px;
+  padding: 10px; }
+
 footer {
-  background-color: #910707; }
-  footer img {
-    justify-content: space-between; }
+  background: linear-gradient(to left, #0f0c29, #302b63, #24243e); }
 
 footer div {
   padding: 10px;

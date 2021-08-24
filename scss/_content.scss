@@ -12,7 +12,7 @@ h2{
 	font-family: $fontSecond;
 	font-size: $fontSizeL;
 	text-align: $fontCenterL;
-	color: $light;
+	color: $sky;
 }
 
 //SubTitulo
@@ -21,6 +21,13 @@ h3{
 	font-size: $fontSizeM;
 	text-align: $fontLeftM;
 	color: $light;
+}
+
+h4{
+	font-family: $fontThree;
+	font-size: $fontSizeS;
+	color: $light;
+
 }
 
 //Texto
@@ -38,8 +45,9 @@ form{
 	font-family: $fontForm;
 	font-size: $fontSizeForm;
 	text-align: $fontRight;
-	color: $danger;
+	color:$light;
 	display: $flex;
+	font-variant: $fw-bold;
 
 	}
 }
@@ -56,10 +64,12 @@ legend{
 
 	padding: 10px;
     margin: 10px;
-    font-size: $fontSizeM;
+    font-size: $fontSizeL;
     font-family: $fontThree;
 	color:$light;
 	text-align: $fontCenter;
+	font-variant: $fw-bold;
+
 }
 
 header p{
@@ -90,9 +100,28 @@ a:hover, a:focus{
 
 div ul li a{
 
-	color: $light;
+	color: $dark;
 	text-decoration: none;
 	font-family: $fontNav;
 	font-size: $fontSizeNav;
 
+}
+
+div {
+
+}
+	h3{
+		font-family: $fontText2;
+	 	color:$light;
+	}
+
+		p{
+			
+}
+
+h3{
+	button{
+			margin: 10px;
+			padding: 10px;
+	}
 }
