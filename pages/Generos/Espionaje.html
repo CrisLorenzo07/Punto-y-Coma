@@ -5,9 +5,9 @@
 <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Punto & Coma - Libros</title>
-    <meta name="description" content="En esta sesion se encuentran todos los Libros, con su respectiva información, se podrá comprar  y agregar a favoritos. Se pueden ver todos en general o filtrar por tematica">
-    <meta name="keywords" content="autores, libros,ebook, libro electronico, kindle,  español, inglés, novela, ciencia ficción, novela negra, comedia, biografías">
+    <title>Genero - Espionaje</title>
+    <meta name="description" content="En esta sesion se encuentran todos los Libros del genero espionaje, con su respectiva información, se podrá comprar  y agregar a favoritos.">
+    <meta name="keywords" content="autores, libros,ebook, libro electronico, kindle,  español, inglés, espionaje">
     <meta name="author" content="Cristian Lorenzo">
 
 <!--Bootstrap CSS-->
@@ -16,7 +16,7 @@
 
 <!--Mi CSS-->
 
-    <link rel="stylesheet" type="text/css" href="../css/main.css ">
+    <link rel="stylesheet" type="text/css" href="../../css/main.css ">
 
   </head>
 
@@ -26,36 +26,36 @@
 
   <nav class="navbar navbar-expand-lg navbar-dark";>
     <div class="container-fluid">
-      <a class="navbar-brand" href="../index.html"><img src="../media/image/logo/logo.svg"></a>
+      <a class="navbar-brand" href="../../index.html"><img src="../../media/image/logo/logo.svg"></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
         </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Autores.html">Autores</a>
+            <a class="nav-link active" aria-current="page" href="../autores.html">Autores</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Libros.html">Libros</a>
+            <a class="nav-link active" aria-current="page" href="../libros.html">Libros</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Personajes.html">Personajes</a>
+            <a class="nav-link active" aria-current="page" href="../personajes.html">Personajes</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="SobreMi.html">Sobre Mi</a>
+            <a class="nav-link active" aria-current="page" href="../sobre-mi.html">Sobre Mi</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="Contacto.html">Contacto</a>
+            <a class="nav-link active" aria-current="page" href="../contacto.html">Contacto</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Entrar
             </a>
         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="Inicio-de-Sesion.html">Iniciar Sesión</a></li>
-            <li><a class="dropdown-item" href="Registro.html">Registrarse</a></li>
+            <li><a class="dropdown-item" href="../inicio-de-sesion.html">Iniciar Sesión</a></li>
+            <li><a class="dropdown-item" href="../registro.html">Registrarse</a></li>
             <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="Preguntas-Frecuentes">Preguntas Frecuentes</a></li>
+            <li><a class="dropdown-item" href="../preguntas-frecuentes">Preguntas Frecuentes</a></li>
         </ul>
           </li>
         </ul>
@@ -73,59 +73,40 @@
 
   <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
     <ol class="breadcrumb">
-      <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
-      <li class="breadcrumb-item active" aria-current="page">Libros</li>
+      <li class="breadcrumb-item"><a href="../../index.html">Inicio</a></li>
+      <li class="breadcrumb-item"><a href="../libros.html">Genero</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Espionaje</li>
     </ol>
   </nav>
 
 <!--Fin Breadcrumb-->
 
-<!--Inicio Filtro de Busqueda por Genero-->
+<!--Inicio Card Libros Espionaje-->		
 
-  <ul class="nav nav-tabs" id="myTab" role="tablist">
-    <li class="nav-item" role="presentation">
-      <button class="nav-link active" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">Novela Negra</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">Comedia</button>
-    </li>
-    <li class="nav-item" role="presentation">
-      <button class="nav-link" id="contact-tab" data-bs-toggle="tab" data-bs-target="#contact" type="button" role="tab" aria-controls="contact" aria-selected="false">Ciencia Fisión</button>
-    </li>
-  </ul>
-    <div class="tab-content" id="myTabContent">
-      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">...</div>
-      <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
-      <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-    </div>
-
-<!--Fin Filtro de Busqueda por Genero--> 
-
-<!--Inicio Card Libros-->		
-
-	<div class="container">
+	<div class="container-fluid">
+    <div class="col-md-12">
 		<div class="row">
 				<div class="col-sm-3">
-				<img src="../media/image/ConnellyMichael/El-Eco-Negro.jpg">
-        <a href="ConnellyMichael/El-Eco-Negro.html" class="btn btn-danger">Ver Libro</a>
+				<img src="../../media/image/brown-dan/el-codigo-da-vinci.jpg" class="img-thumbnail" alt="...">
+        <a href="../autores/brown-dan/Libros/el-codigo-da-vinci.html" class="btn btn-danger">Ver Libro</a>
+        <button class="btn btn-outline-light" type="submit">Añadir a Favoritos</button>
 			</div>
 			<div class="col-sm-3">
-				<img src="../media/image/ConnellyMichael/El-Ultimo-Coyote.jpg">
-        <a href="ConnellyMichael/El-Ultimo-Coyote.html" class="btn btn-danger">Ver Libro</a>
+				<img src="../../media/image/brown-dan/angeles-y-demonios.jpg" class="img-thumbnail" alt="...">
+        <a href="../autores/brown-dan/Libros/angeles-y-demonios.html" class="btn btn-danger">Ver Libro</a>
+        <button class="btn btn-outline-light" type="submit">Añadir a Favoritos</button>
 			</div>
 			<div class="col-sm-3">
-				<img src="../media/image/ConnellyMichael/La-Rubia-de-Hormigon.jpg">
-        <a href="ConnellyMichael/La-Rubia-de-Hormigon.html" class="btn btn-danger">Ver Libro</a>
-			</div>
-			<div class="col-sm-3">
-				<img src="../media/image/ConnellyMichael/Echo-Park.jpg">
-        <a href="ConnellyMichael/Echo-Park.html" class="btn btn-danger">Ver Libro</a>
+				<img src="../../media/image/brown-dan/la-conspiracion.jpg" class="img-thumbnail" alt="...">
+        <a href="../autores/brown-dan/Libros/la-conspiracion.html" class="btn btn-danger">Ver Libro</a>
+        <button class="btn btn-outline-light" type="submit">Añadir a Favoritos</button>
 			</div>
 			</div>	
 		</div>
+    </div>
   </div>							
 
-<!--Fin Card Libros-->   
+<!--Fin Card Libros Espionaje-->   
 
 <!--JavaScript-->
 
