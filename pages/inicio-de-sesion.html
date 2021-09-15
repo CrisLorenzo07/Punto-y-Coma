@@ -1,34 +1,39 @@
 <!doctype html>
 <html lang="en">
-  <head>
 
-<!--Required meta tags-->
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Punto & Coma - Inicio de Sesion</title>
-    <meta name="description" content="En esta paginas los usarios ya credos podran aceder a la pagina, para realizar compras y agregar a favoritos los libros que les guste">
-    <meta name="author" content="Cristian Lorenzo">
+  <!--Required meta tags-->
 
-<!--Bootstrap CSS-->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Punto & Coma - Inicio de Sesion</title>
+  <meta name="description"
+    content="En esta paginas los usarios ya credos podran aceder a la pagina, para realizar compras y agregar a favoritos los libros que les guste">
+  <meta name="author" content="Cristian Lorenzo">
 
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!--Bootstrap CSS-->
 
-<!--Mi CSS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <!--Mi CSS-->
 
   <link rel="stylesheet" type="text/css" href="../css/main.css ">
-    
-  </head>
-  <body>
 
-<!--Inicio Barra de Navegación-->
+</head>
+
+<body>
+
+  <!--Inicio Barra de Navegación-->
 
   <nav class="navbar navbar-expand-lg navbar-dark">
     <div class="container-fluid">
       <a class="navbar-brand" href="../index.html"><img src="../media/image/logo/logo.svg"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-        </button>
+      </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
@@ -47,15 +52,18 @@
             <a class="nav-link active" aria-current="page" href="contacto.html">Contacto</a>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
               Entrar
             </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="inicio-de-sesion.html">Iniciar Sesión</a></li>
-            <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
-        </ul>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="inicio-de-sesion.html">Iniciar Sesión</a></li>
+              <li><a class="dropdown-item" href="registro.html">Registrarse</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="preguntas-frecuentes.html">Preguntas Frecuentes</a></li>
+            </ul>
           </li>
         </ul>
         <form class="d-flex">
@@ -66,35 +74,38 @@
     </div>
   </nav>
 
-<!--Fin Barra de Navegación-->
+  <!--Fin Barra de Navegación-->
 
-<!--Inicio de Inicio de Sesión-->
+  <!--Inicio de Inicio de Sesión-->
 
   <h1">Iniciar Sesion</h1>
 
-  <div class="container">
-    <div class="row">
-      <div class="col-md-6">
-        <form>
-          <div class="mb-3">
-            <label for="user" class="form-label">Usuario</label>
-            <input type="user" class="form-control" id="user" aria-describedby="user" placeholder="Ingrese su Email">
-          </div>
-          <div class="mb-3">
-            <label for="password" class="form-label">Contraseña</label>
-            <input type="password" class="form-control" id="password" placeholder="Ingrese su Contraseña">
-          </div>
-          <button type="submit" class="btn btn-dark">Entrar</button>
-        </form>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="user" class="form-label">Usuario</label>
+              <input type="user" class="form-control" id="user" aria-describedby="user" placeholder="Ingrese su Email">
+            </div>
+            <div class="mb-3">
+              <label for="password" class="form-label">Contraseña</label>
+              <input type="password" class="form-control" id="password" placeholder="Ingrese su Contraseña">
+            </div>
+            <button type="submit" class="btn btn-dark">Entrar</button>
+          </form>
+        </div>
       </div>
     </div>
-  </div>
 
-<!--Fin Inicio de Sesión-->
+    <!--Fin Inicio de Sesión-->
 
-<!--JavaScript-->
+    <!--JavaScript-->
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
